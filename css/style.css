@@ -1,0 +1,148 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+header,
+main {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-top: 38px;
+	margin-bottom: 92px;
+}
+
+img {
+	width: 100%;
+}
+
+.header-image {
+	margin-bottom: 60px;
+}
+
+.vulputate,
+.lorem {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+
+.vulputate,
+.mauris {
+	margin-bottom: 24px;
+}
+
+.at-facilisi {
+	margin-bottom: 48px;
+}
+
+.lorem {
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+.list {
+	margin-bottom: 24px;
+}
+
+.item {
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+
+.enim {
+	margin-bottom: 92px;
+}
+
+.example1 {
+	display: block;
+	background-color:black;
+	max-width: 500px;
+	padding: 10px 30px 15px 50px;
+	overflow: scroll;
+	border: 7px double rgb(137, 251, 50);
+	box-shadow: 20px 13px 15px 2px rgba(0, 0, 255, .5)
+}
+
+.example2 {
+	color: white;
+	font-size: 32px;
+	background-color: darkred;
+	max-height: 120px;
+	max-width: 350px;
+	margin: 22px 30px 20px 50px;
+	overflow: auto;
+	outline: 3px dotted #0033ff;
+}
+
+.example3,
+.example3-1,
+.example3-2,
+.example3-3 {
+	display: inline-block;
+	color: black;
+	background-color: darkolivegreen;
+	border-radius: 50%;
+	padding: 40px;
+	width: 300px;
+	height: 300px;
+	box-shadow: inset 20px 13px 15px 2px rgba(255, 60, 0, 0.5)
+}
+
+.example3-1 {
+	opacity: 0.8;
+}
+
+.example3-2 {
+	opacity: 0.5;
+}
+
+.example3-3 {
+	opacity: 0.3;
+}
+
+.example4 {
+	background: #000;
+	width: 200px;
+	height: 200px;
+	visibility: hidden;
+}
